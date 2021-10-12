@@ -1,0 +1,82 @@
+.nbaGame div {
+    border: black solid 1px;
+}
+
+body {
+    background-color: rgb(221, 148, 80);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1%;
+    color: black;
+    font-size: 5rem;
+}
+
+h2 {
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1%;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    padding: 1rem;
+    background-color: blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    border-color: black;
+    border: .01rem;
+    border-style: solid;
+    margin: 1rem;
+}
+
+
+#homeImage {
+    max-height: 40%;
+    max-width: 40%;
+    border: 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+.menuLink {
+    background-color: white;
+    text-align: center;
+    border: .01rem;
+    border-color: black;
+    border-style: solid;
+    margin: .5rem;
+    max-width: 20%;
+    height: 3rem;
+}
+
+.mainMenu :hover {
+    background-color: rgb(219, 89, 14);
+}
+
+.projectCard {
+    margin: 1rem;
+    background-color: rgb(202, 201, 201);
+    border-width: .2rem;
+    border-color: black;
+    border-style: solid;
+}
+
+.projectCard img {
+    margin: 1rem;
+}
+
+.listItem {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+
+
