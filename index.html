@@ -1,56 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Zack Schuster</title>
-	<link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/style.css">
+    <title>NBA Games</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script type="application/javascript" src="js/basketball.js"></script>
 </head>
-<body>
+<body onload="init()">
+    <h1>Games</h1>
     
-      
-        
-        <div class="grid-container">
-            <!-- `grid-x` represents a row -->
-            <div class="mainMenu grid-x grid-padding-x" style="margin: auto;">
-                    
-            </div>
-            <div class="grid-x grid-padding-x">
-                <h1 class="cell small-12 large-12">NBA Odds</h1>
-            </div>
-            <div class="grid-x grid-padding-x">
-                <p class="cell small-12 large-12">
-                    Here are the next games with odds and most favorable bets listed in order 
-                </p>
-            </div>
-
-            <div class="nbaGame grid-x grid-padding-x">
-                <div class="cell small-2 large-2">Home Team: </div>
-                <div class="teamName small-2 large-1">Money Line</div>
-                <div class="teamName small-2 large-2">Away Team</div>
-                <div class="cell small-2 large-2" id="clippersMoneyline">Money Line</div>
-            </div>
-            <div class="nbaGame grid-x grid-padding-x">
-
-                <div class="teamName small-2 large-2">Minnesota Timerberwolves</div>
-                <div class="cell small-2 large-1" id="twolvesMoneyline">-120</div>
-                <div class="teamName small-2 large-2">LA Clippers</div>
-                <div class="cell small-2 large-2" id="clippersMoneyline">-100</div>
-            </div>
-            
-        </div>
-        
-        
-
-
-    <!-- main content within a `grid-container` -->
+    <br/><br/>
+    <button id="lookup" type="button">Find Games</button>
+    <br/><br/>
+    <h3 style="margin: 0;">Here are the games</h3>
+    <div id="result"></div>
     
-<script src="js/jquery-3.6.0.min.js"></script>
-<script src="js/vendor.js"></script>
-<script src="js/foundation.js"></script>
-<script type="application/javascript">
-    $(document).foundation();
-</script>
+    <input type="text" id='winPercent' placeholder="% Chance to Win"></input>
+    <input type="text" id='winDollars' placeholder="% Gain on Win"></input>
+    <input type="text" id='lossDollars' placeholder="% Loss on loss"></input>
+    <button id="kelly" type="button">Find Kelly Criterion</button>
 </body>
-</html>
+</html>     
+
